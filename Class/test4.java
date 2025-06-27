@@ -22,7 +22,7 @@ class CalculatorImpl implements iCalculator{
 
 public class test4 {
     public static void main(String[] args) {
-        // Lopse coupling : polymorphism
+        // Loose coupling : polymorphism
         iCalculator calculator = new CalculatorImpl();
         calculator.add(12,13);
         calculator.subtract(80,56);
