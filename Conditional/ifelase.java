@@ -8,11 +8,8 @@ public class ifelase {
             System.out.print("Yes it's true.");
         }
         else{
-            System.out.print("nope.");
+            System.out.print("nopfe.");
         }
         
     }
 }
-
-
-// hj
