@@ -6,6 +6,8 @@ public class ArrayListAdd {
         System.out.println(list);
         list.add(0,10);
         System.out.println(list);
+        
+
    }
 
 }
