@@ -1,4 +1,4 @@
-package Array;
+package array;
 import java.util.Arrays;
 public class copyOfArray {
     public static void main(String[] args) {

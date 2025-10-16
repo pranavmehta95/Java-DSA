@@ -22,7 +22,7 @@
 
 
 
-package Array;
+package array;
 import java.util.Scanner;
 public class maximumValue {
     public static void main(String[] args) {

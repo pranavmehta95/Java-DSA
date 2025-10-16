@@ -1,4 +1,4 @@
-package Array;
+package array;
 import java.util.Scanner;
 public class ialiseArray {
     public static void main(String[] args) {
