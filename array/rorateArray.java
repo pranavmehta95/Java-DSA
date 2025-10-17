@@ -10,26 +10,26 @@ public class rorateArray {
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
-        int i = 0, j = size-1;
-        while(i<=j){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            i++;
-            j--;
-        }
-        int l=0, m = steps-1;
-        while(l<=m){
-            int temp = arr[l];
-            arr[l] = arr[m];
-            arr[m] = temp;
-            l++;
-            m--;
-        }
+        steps = steps % n; //in case steps > n
+        //step 1: reverse the whole array
+        reverse(arr,0,n-1);
+        //step 2: reverse first k elements
+        reverse(arr,0,steps-1);
+        //step 3: reverse the remaining elements
+        reverse(arr,steps,n-1);
         for(int ele: arr){
              System.out.print(ele+" ");
          }
          System.out.println();
+    }
+    public static void reverse(int[] arr, int start, int end) {
+        while(start<end){
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
     }
     
 }
