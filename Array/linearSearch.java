@@ -13,6 +13,7 @@ public class linearSearch {
             arr[i]=sc.nextInt();
         }
 
+
         //Soution
         boolean flag = false;  //false means element not found
         for(int i=0;i<arr.length;i++){
@@ -25,7 +26,7 @@ public class linearSearch {
             System.out.println("Element found");
         }
         else{
-            System.out.println("Element not found");
+            System.out.println("Element not found.");
         }
 
     }
