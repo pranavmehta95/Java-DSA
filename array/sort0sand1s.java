@@ -33,7 +33,7 @@ public class sort0sand1s {
         while(i<j){
             if(arr[i]==0) i++;
             if(arr[j]==1) j--;
-            if(i>j) break;  //pranav kumar
+            if(i>j) break; 
             if(arr[i]==1 && arr[j]==0){
                 //swap
                 arr[i] = 0;
