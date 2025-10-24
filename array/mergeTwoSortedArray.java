@@ -12,6 +12,7 @@ public class mergeTwoSortedArray {
                 c[k] = a[i];
                 i++;
                 k++;
+                //
             }
             else{
                 c[k] = b[j];
