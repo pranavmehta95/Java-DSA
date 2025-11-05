@@ -3,7 +3,7 @@ package TwoDimentionalArray;
 public class rotatethematrix {
     public static void print(int[][] arr){
         int m=arr.length, n=arr[0].length;
-        for (int i = 0; i < m; i++) {
+        for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 System.out.print(arr[i][j]+" ");
             }
@@ -22,6 +22,7 @@ public class rotatethematrix {
                 arr[j][i] = temp;
             }
         }
+        
         print(arr);
     }
 }
