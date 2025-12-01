@@ -41,7 +41,6 @@ public class spiralform {
                 System.out.print(arr[i][maxc]+" ");
             }
             maxc--;
-            //
             //right to left
             if(minr>maxr || minc>maxc) break;
             for(int j=maxc;j>=minc;j--){
