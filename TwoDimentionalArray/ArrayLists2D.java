@@ -16,7 +16,7 @@ public class ArrayLists2D {
 
 
         // System.out.println(l.get(1).get(1));
-
+        
         for(int i=0;i<l.size();i++){
             // List<Integer> x = l.get(i);
             for(int j=0;j<l.get(i).size();j++){
