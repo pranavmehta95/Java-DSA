@@ -1,4 +1,4 @@
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 import java.util.ArrayList;
 import java.util.List;
 public class ArrayLists2D {

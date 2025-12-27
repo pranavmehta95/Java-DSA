@@ -24,7 +24,7 @@
 
 
 
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 // import java.util.Scanner;
 public class rowswisecolumnwise {
     public static void main(String[] args) {

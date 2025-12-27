@@ -1,4 +1,4 @@
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 import java.util.Scanner;
 public class spiralform {
     public static void print(int[][] arr){
@@ -23,6 +23,7 @@ public class spiralform {
                 arr[i][j] = sc.nextInt();
             }
         }
+        // System.out.print(arr);
         System.out.println("Here os the Original matrix: ");
         print(arr);
         //Spiral form.
@@ -53,6 +54,7 @@ public class spiralform {
                 System.out.print(arr[i][minc]+" ");
             }
             minc++;
+
 
         }
     }

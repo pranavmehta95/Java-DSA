@@ -1,4 +1,4 @@
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 import java.util.Scanner;
 public class OutPutUsingNestedLoop {
     public static void main(String[] args) {

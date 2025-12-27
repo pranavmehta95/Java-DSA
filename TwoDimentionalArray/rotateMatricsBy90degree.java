@@ -1,4 +1,4 @@
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 import java.util.Scanner;
 public class rotateMatricsBy90degree {
     public static void print(int[][] arr){

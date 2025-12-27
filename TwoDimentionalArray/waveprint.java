@@ -47,7 +47,7 @@
 
 
 
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 import java.util.Scanner;
 public class waveprint {
     public static void print(int[][] arr){

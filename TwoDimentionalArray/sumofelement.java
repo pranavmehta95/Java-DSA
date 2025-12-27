@@ -27,7 +27,7 @@
 // }
 
 
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 import java.util.Scanner;
 public class sumofelement {
     public static void main(String[] args) {

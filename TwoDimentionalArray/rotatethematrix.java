@@ -1,4 +1,4 @@
-package TwoDimentionalArray;
+// package TwoDimentionalArray;
 
 public class rotatethematrix {
     public static void print(int[][] arr){
